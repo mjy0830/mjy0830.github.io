@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: center;
+}
+
+.safe {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.bg {
+    height: 940px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg .head {
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    z-index: 1;
+    opacity: 1 !important;
+}
+
+.bg .head1 {
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    opacity: 1 !important;
+}
+
+.bg header {
+    height: 75px;
+    background: url(./images/logo.png) no-repeat;
+    background-size: 95px;
+    background-position-y: 20px;
+    font-size: 0;
+}
+
+.bg header ul {
+    padding-left: 125px;
+}
+
+.bg header ul li {
+    display: inline-block;
+    width: 76px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* .bg header ul :first-of-type {
+    background-color: #12b7f5;
+} */
+
+header div button {
+    width: 95px;
+    height: 38px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 25px;
+    background-color: #16bcfa;
+    color: #fff;
+    font-size: 18px;
+}
+
+header div button:hover {
+    background-color: #39c6f9;
+    cursor: pointer;
+}
+
+header div a {
+    font-size: 13px;
+    margin-left: 40px;
+    /* line-height: 75px; */
+    color: #000;
+}
+
+header div a:hover {
+    color: #12b7f5;
+    cursor: pointer;
+}
+
+.bg1 {
+    width: 100%;
+    height: 100%;
+    background: url(./images/bg1.jpeg);
+    display: none;
+    opacity: 0.4;
+    transition: 1s;
+    padding-top: 75px;
+}
+
+.bg1 img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg1 .img1 {
+    width: 950px;
+    padding-top: 35px;
+    margin-bottom: 57px;
+}
+
+.bg1 .img2 {
+    width: 283px;
+}
+
+.bg1 .img2:hover {
+    cursor: pointer;
+}
+
+.bg1 .img3 {
+    margin-top: 20px;
+    width: 750px;
+    height: 500px;
+}
+
+.bg2 {
+    width: 100%;
+    height: 100%;
+    background: url(./images/bg2.jpg);
+    /* display: none; */
+    opacity: 1;
+    transition: 1s;
+}
+
+.bg2 .img1 {
+    width: 470px;
+}
+
+.bg2 .img2 {
+    width: 300px;
+    margin-left: 25px;
+    position: relative;
+    top: -20px
+}
+
+.bg2 .img2:hover {
+    cursor: pointer;
+}
+
+.bg2 .bg2_top {
+    width: 800px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.bg2 .img3 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.dot {
+    position: absolute;
+    top: 900px;
+    left: 50%;
+}
+
+.QQ1 {
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    left: 360px;
+}
+
+.center {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+
+.beijing1 {
+    width: 100%;
+    height: 1080px;
+    background: url(./images/fisrtbg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.beijing2 {
+    width: 100%;
+    height: 1080px;
+    background: url(./images/avd.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.beijing2 .main1 {
+    width: 100%;
+    height: 584px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.beijing2 .main1 .safe {
+    background: url(./images/qcall_txt.png) no-repeat;
+    background-position: 480px 114px;
+    position: relative;
+}
+
+.beijing2 .main1 .safe .p1 {
+    display: inline-block;
+    position: absolute;
+    font-size: 18px;
+    color: #676767;
+    letter-spacing: 2px;
+    top: 253px;
+    right: 0;
+}
+
+.beijing2 .main1 .safe .p2 {
+    display: inline-block;
+    position: absolute;
+    top: 316px;
+    right: 0;
+    font-size: 18px;
+    color: #16bcfa;
+}
+
+.beijing2 .main1 .safe .p2:hover {
+    cursor: pointer;
+}
+
+.beijing2 .main1 .safe img{
+    margin-top: -175px;
+    margin-left: -26px;
+}
+
+.beijing2 .main1 .safe .div1{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    top: 390px;
+    right: 0;
+    color: #9e9c9c;
+}
+
+.beijing2 .main1 .safe div div .iconfont {
+    font-size: 60px;
+}
+
+hr {
+    background-color: #e9e9e9;
+    border: none;
+    width: 1px;
+}
+
+.main3 {
+    width: 100%;
+    height: 580px;
+    background-color: #fff;
+}
+
+.main3 .safe {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    background: url(./images/txt.png) no-repeat;
+    background-position: 126px 110px;
+}
+
+.main3 .safe .wenzi {
+    position: absolute;
+    left: 130px;
+    top: 253px;
+    font-size: 18px;
+    color: #676767;
+    letter-spacing: 2px;
+}
+
+.main3 .safe img {
+    position: absolute;
+    right: 20px;
+    top: 145px;
+}
+
+.main3 .safe .div1{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    top: 350px;
+    left: 130px;
+    color: #9e9c9c;
+}
+
+.main3 .safe div div .iconfont {
+    font-size: 60px;
+}
+
+footer {
+    width: 100%;
+    height: 288px;
+    background-color: #2a2a2a;
+}
+
+footer .foot1 {
+    height: 200px;
+}
+
+footer .foot1 .left p{
+    color: #747474;
+    margin-top: 34px;
+    margin-left: 12px;
+    font-size: 13px;
+}
+
+footer .foot1 .left .logo {
+    display: flex;
+}
+
+footer .foot1 .left .logo p {
+    padding-top: 62px;
+    margin-left: 24px;
+    font-size: 14px;
+    color: #7f7f7f;
+}
+
+footer .foot1 .left .logo1 {
+    background: url(./images/plats1.png) no-repeat;
+    background-position-y: 25px;
+    background-position-x: 18px;
+}
+
+footer .foot1 .left .logo2 {
+    background: url(./images/plats1.png) no-repeat;
+    background-position-y: 25px;
+    background-position-x: -73px;
+}
+
+footer .foot1 .left .logo3 {
+    background: url(./images/plats1.png) no-repeat;
+    background-position-y: 25px;
+    background-position-x: -195px;
+}
+
+footer .foot1 .left .logo1:hover p {
+    color: #12b7f5;
+}
+
+footer .foot1 .left .logo1:hover {
+    background-position-y: -68px;
+    cursor: pointer;
+}
+
+footer .foot1 .left .logo2:hover p {
+    color: #12b7f5;
+}
+
+footer .foot1 .left .logo2:hover {
+    background-position-y: -68px;
+    cursor: pointer;
+}
+
+footer .foot1 .left .logo3:hover p {
+    color: #12b7f5;
+}
+
+footer .foot1 .left .logo3:hover {
+    background-position-y: -68px;
+    cursor: pointer;
+}
+
+footer .foot1 .right {
+    display: flex;
+    font-size: 12px;
+    margin-top: 34px;
+}
+
+footer .foot1 .right p {
+    color: #747474;
+    margin-left: 62px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+footer .foot1 .right li {
+    color: #888888;
+    margin-left: 62px;
+    margin-bottom: 8px;
+}
+
+footer .foot1 .right li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .foot2 {
+    border-bottom: 1px solid #676767;
+}
+
+footer .foot3 {
+    text-align: center;
+    color: #747474;
+    margin-top: 18px;
+    font-size: 12px;
+}

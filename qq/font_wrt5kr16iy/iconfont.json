@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "201577",
+      "name": "3.1电话",
+      "font_class": "31dianhua",
+      "unicode": "f0203",
+      "unicode_decimal": 983555
+    },
+    {
+      "icon_id": "1660743",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "1727560",
+      "name": "322相互交换",
+      "font_class": "xianghujiaohuan",
+      "unicode": "e8f8",
+      "unicode_decimal": 59640
+    },
+    {
+      "icon_id": "2380623",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "10290852",
+      "name": "预览2",
+      "font_class": "yulan",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "29522809",
+      "name": "2E群组",
+      "font_class": "a-2Equnzu",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    }
+  ]
+}

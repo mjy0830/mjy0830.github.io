@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./QQ.css">
+    <link rel="stylesheet" href="./font_wrt5kr16iy/iconfont.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="head">
+            <header class="safe fix">
+                <ul class="left">
+                    <li style="background-color: #12b7f5;">首页</li>
+                    <li>下载</li>
+                    <li>动态</li>
+                </ul>
+                <div class="right">
+                    <button>注 册</button>
+                    <a href="">QQ会员</a>
+                    <a href="">QQ安全</a>
+                    <a href="">登录</a>
+                </div>
+            </header>
+        </div>
+        <div class="bg1">
+            <img class="img1" src="./images/pc.png" alt="">
+            <img class="img2" src="./images/load1.png" alt="">
+            <img class="img3" src="./images/pc前景1.png" alt="">
+        </div>
+        <div class="bg2">
+            <div class="bg2_top">
+                <img class="img1" src="./images/title-text-1366s.png" alt="">
+                <img class="img2" src="./images/load.webp" alt="">
+            </div>
+            <img class="img3" src="./images/pc2.png" alt="">
+        </div>
+        <div class="dot">
+            <span class="one">
+                <img src="./images/navcur.png" alt="">
+            </span>
+            <span>&ensp;</span>
+            <span class="two">
+                <img src="./images/nav.png" alt="">
+            </span>
+        </div>
+    </div>
+    
+    <div class="beijing1">
+        <div class="center">
+            <img class="QQ1" src="./images/brand.png" alt="">
+        </div>
+    </div>
+    <div class="beijing2">
+        <div class="main1">
+            <div class="safe">
+                <img src="./images/pic1.png" alt="">
+                <p class="p1">无论何时何地，你都能自由享受QQ在各类终端<br>上带来的高清通话，与好友一起想聊多久聊多久</p>
+                <p class="p2">了解更多 ></p></p>
+                <div class="div1">
+                    <div>
+                        <p class="iconfont icon-31dianhua"></p>
+                        <p>屏幕分享</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="iconfont icon-a-2Equnzu"></p>
+                        <p>群组通话</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="iconfont icon-diannao"></p>
+                        <p>两人、多人<br>通话</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main3">
+        <div class="safe">
+            <p class="wenzi">通过QQ,电脑和手机上的文件都能收发自如，<br>更有手机在线查阅，轻松你的工作和生活。</p>
+            <div class="div1">
+                <div>
+                    <p class="iconfont icon-shangchuan"></p>
+                    <p>文件漫游</p></p>
+                </div>
+                <hr>
+                <div>
+                    <p class="iconfont icon-xianghujiaohuan"></p>
+                    <p>多端互传</p>
+                </div>
+                <hr>
+                <div>
+                    <p class="iconfont icon-yulan"></p>
+                    <p>在线预览</p>
+                </div>
+            </div>
+            <img src="./images/pic2.png" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot1 safe">
+            <div class="left">
+                <p>了解热门产品</p>
+                <div class="logo">
+                    <div class="logo1">
+                        <p>QQ 手机版</p>
+                    </div>
+                    <div class="logo2">
+                        <p>QQ Windows版</p>
+                    </div>
+                    <div class="logo3">
+                        <p>QQ Mac版</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <p>QQ安全</p>
+                    <li>安全中心</li>
+                    <li>冻结账号</li>
+                    <li>举报恶意行为</li>
+                    <li>恢复好友和群</li>
+                </div>
+                <div>
+                    <p>帮助反馈</p>
+                    <li>腾讯客服</li>
+                    <li>反馈问题</li>
+                    <li>新浪微博</li>
+                </div>
+                <div>
+                    <p>友情链接</p>
+                    <li>QQ群</li>
+                    <li>QQ音乐</li>
+                    <li>QQ浏览器</li>
+                </div>
+                <div>
+                    <p>友情链接</p>
+                    <li>腾讯视频</li>
+                    <li>腾讯电脑管家</li>
+                    <li>企鹅FM</li>
+                </div>
+            </div>
+        </div>
+        <div class="safe foot2"></div>
+        <div class="foot3">
+            <p>Copyright  1998-2022 Tencent.All Rights Reserved.</p>
+            <p>腾讯公司 版权所有</p>
+        </div>
+    </footer>
+
+    <script>
+        window.onload = function() {
+            var bg = document.querySelector(".bg");
+            var bg1 = bg.querySelector(".bg1");
+            var bg2 = bg.querySelector(".bg2");
+            var dot = bg.querySelector(".dot");
+            var one = dot.querySelector(".one img");
+            var two = dot.querySelector(".two img");
+            var head = bg.querySelector(".head");
+            var lefts = head.querySelectorAll("li");
+            var bg = [bg1, bg2], index = 0;
+
+            
+            setInterval(function(){
+                var top = window.scrollY;
+                if(top > 500) {
+                    head.className = "head1";
+                }else {
+                    head.className = "head";
+                }
+            },500);
+
+            for(var i=0; i<lefts.length; i++) {
+                lefts[i].onmouseover = function() {
+                    for(var j=0; j<lefts.length; j++){
+                        lefts[j].style.backgroundColor = "";
+                    }
+                    this.style.backgroundColor = "#12b7f5";
+                    this.style.cursor = "pointer";
+                }
+                lefts[i].onmouseout = function() {
+                    for(var j=1; j<lefts.length; j++){
+                        lefts[j].style.backgroundColor = "";
+                    }
+                    lefts[0].style.backgroundColor = "#12b7f5";
+                }
+            }
+
+
+            function change() {
+                bg[index].style.display = "none";
+                bg[index].style.opacity = 0.4;
+                if(index == 1) index = -1;
+                index++ ;
+                bg[index].style.display = "block";
+                setTimeout(function(){
+                    bg[index].style.opacity = 1;
+                },50);
+                if(index == 1) {
+                    one.src = "./images/navcur.png";
+                    two.src = "./images/nav.png";
+                }else {
+                    two.src = "./images/navcur.png";
+                    one.src = "./images/nav.png";
+                }
+
+            }
+
+            var time = setInterval(change,3000);
+
+            one.onmouseover = function() {
+                clearInterval(time);
+                one.src = "./images/navcur.png";
+                two.src = "./images/nav.png";
+                bg1.style.display = "none";
+                bg1.style.opacity = 0.4;
+                bg2.style.display = "block";
+                setTimeout(function(){
+                    bg2.style.opacity = 1;
+                },50);
+                this.style.cursor = "pointer";
+            }
+
+            one.onmouseout = function() {
+                time = setInterval(change,3000);
+            }
+
+            two.onmouseover = function() {
+                two.src = "./images/navcur.png";
+                one.src = "./images/nav.png";
+                bg2.style.display = "none";
+                bg2.style.opacity = 0.4;
+                bg1.style.display = "block";
+                setTimeout(function(){
+                    bg1.style.opacity = 1;
+                },50);
+                this.style.cursor = "pointer";
+            }
+
+        }
+    </script>
+</body>
+</html>
